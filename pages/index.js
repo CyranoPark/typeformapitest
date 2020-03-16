@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import axios from 'axios';
+import axios                          from 'axios';
+import Test                           from '../components/test';
 
 const app = (props) => {
 
@@ -26,7 +27,7 @@ const app = (props) => {
 	}, [])
 
 	return (
-		<div></div>
+		<Test/>
 	);
 };
 
